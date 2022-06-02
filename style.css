@@ -1,0 +1,25 @@
+body{
+    background-color: #f3f5fc;
+}
+
+
+#Titulo-encriptador{
+    border: 10ch;
+    text-align: center;
+}
+
+
+.boton{
+    height:  67px;
+    width: 328px;
+    background: #0A3871;
+    border-radius: 24px;
+    text-align: center;
+    margin: 20px 30px 10px 15px;
+    padding: 5px;
+   display: inline-flex;
+   align-items: center;
+
+   
+}
+
