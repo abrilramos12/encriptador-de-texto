@@ -1,25 +1,140 @@
 body{
     background-color: #f3f5fc;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
 }
-
-
-#Titulo-encriptador{
-    border: 10ch;
-    text-align: center;
+.cabecera{
+    display: flex;
 }
-
-
 .boton{
-    height:  67px;
-    width: 328px;
-    background: #0A3871;
+    height:  67px; 
+    width: 328px; 
     border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
-    margin: 20px 30px 10px 15px;
-    padding: 5px;
-   display: inline-flex;
-   align-items: center;
-
-   
+    margin-left: 352px;
 }
 
+ #btn-des{
+    background-color: #0A3871;
+    color: white;
+    align-items: flex-start;
+    text-align: center;
+}
+#btn-enc{
+    color: #0A3871;
+    order: 0;
+    flex-grow: 1;
+    align-items: flex-start;
+    margin-left: 240px;
+    
+} 
+#btn-copy{
+    color: #0A3871;
+    margin-bottom: 20px;
+    
+}
+#mensaje{
+    background-color: #f3f5fc;
+    border: 0px;  
+    size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    align-content: center;    
+    Line height: 150%;
+     align: Top;
+    color: #495057;
+    
+}
+#entrada{
+    background-color: #f3f5fc;
+    border: 0px;  
+    margin-left: 240px; 
+    width: 577px;
+    height: 48px;
+    margin-top: 168px;
+    font-family: 'Inter';
+    font-size: 'regular';
+    font-size: 32px;
+    line-height: 48px;
+    line-height: 150%;
+    text-align: left;
+    vertical-align: top;
+    color: #0A3871;
+    
+}
+#img-logo{
+    width: 31.09px;
+    height: 48px;
+    left: 44px;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+    margin-top: 20px;
+    margin-left: 20px;
+ 
+}
+.rectangulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 944px;
+    margin-top: 40px;
+    margin-left: 1000px;
+    margin-bottom: 40px;
+    margin-right: 400px;
+    border-radius: 32px;
+    background: #ffffff;
+    box-shadow: 0px 24px 32px -8px;
+}
+.botones{
+    display: flex;
+    width: 680px;
+    height: 67px;
+    margin-top: 885px;
+    margin-left: 240px;
+    margin-right: 520px;
+}
+.boton-cuadro{
+    margin-left: 20px;
+    height:  67px; 
+    width: 328px; 
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-left: 0px;
+}
+.Msjdesencriptado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#muñeco{
+    display: flex;
+    margin-top: 200px;
+}
+
+.input-text{
+    margin: 100px;
+    width: 328px;
+}
+#titulo-encriptador{
+    margin-top: 20px;
+    margin-left: 100px;
+
+}

@@ -7,30 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 
 <body>
+    
 
-    <h1 id="Titulo-encriptador">Encriptador </h1>
-   <div>    
-       <img src="logo" alt="">
+    
+    <div class="principal">
+        <header class="cabecera">
+            <img src="imagenes/Vector.png" alt="Imagen-logo" id="img-logo">
+            <h1 id="titulo-encriptador">Encriptador </h1>
+        </header>
+            
+        
+        
+
+                <input type="text" placeholder="Ingrese su texto aqui" class="input-text" id="entrada">
+               
+
+                <div class="botones">
+                    <button class="boton" id="btn-enc">encriptar</button>
+                    <button class="boton" id="btn-des">Desencriptar</button>
+                </div>
+
+
+
+
+        
+
     </div>
+   
+        <div class="rectangulo">
 
-    <div class="MsjEncriptado">
-        <input type="text"  placeholder="Coloque su palabra" class="input-text" id="entrada">
-        <button class="boton" id="btn-enc">encriptar</button>
-        <button class="boton" id="btn-des">Desencriptar</button>
-    </div>
-
-
-    <div class="Msjdesencriptado">
-        <input type="text" class="input-text" id="mensaje"> 
-        <button class="boton" id="btn-copy">copiar</button>
-    </div>
-
-    <script src="script.js"></script>
-
-
+            <img src="imagenes/Muñeco.png" alt="img-muñeco" id="muñeco">
+            <div class="Msjdesencriptado">
+                <input type="text" placeholder="Ingrese el texto que desee encriptar o desencriptar" class="input-text" id="mensaje">
+                <button class="boton-cuadro" id="btn-copy">copiar</button>
+            </div>
+        </div>
+       
+        <script src="script.js"></script>
 </body>
 
 </html>
+ <script src="script.js"></script>
